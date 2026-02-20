@@ -121,7 +121,8 @@ nav:
   - 四十一、AI教育工具: models/education.md
   - 四十二、AI学习工具: models/learning.md
   - 四十三、AI数据可视化工具: models/data_visualization.md
-  
+  - 工具对比专区:
+      - 通用大模型对比: compare/general.md
   - 贡献与反馈:
       - 新增工具指南: contribute/add_tool.md
       - 问题反馈: contribute/feedback.md
