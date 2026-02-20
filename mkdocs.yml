@@ -4,6 +4,8 @@ site_description: 700+ AI工具分类导航与对比，覆盖43个细分场景
 site_url: https://Dasein0616.github.io/LLM-Toolkit/
 site_author: Dasein0616
 
+docs_dir: ./
+
 # 主题配置（优化43个分类的导航体验）
 theme:
   name: material
