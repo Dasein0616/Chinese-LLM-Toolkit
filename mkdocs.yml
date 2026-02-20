@@ -3,30 +3,21 @@ site_name: LLM-Toolkit 大模型工具大全
 site_description: 700+ AI工具分类导航与对比，覆盖43个细分场景
 site_url: https://Dasein0616.github.io/LLM-Toolkit/
 site_author: Dasein0616
-# 网站图标（后续准备文件）
-site_favicon: assets/ico/favicon.ico
 
-# 文档目录（已配置正确）
+# 文档目录
 docs_dir: docs
 
-# 主题高级配置
+# 主题配置（移除不兼容项）
 theme:
   name: material
   language: zh
-  version: latest
-  logo: assets/img/logo.png
+  logo: assets/img/logo.png  # 保留 Logo 配置
   features:
     - search.suggest
     - search.highlight
-    - search.share
     - navigation.expand
     - navigation.top
-    - navigation.tracking
-    - navigation.sections
     - content.code.copy
-    - content.code.select
-    - content.tabs.link
-    - announce.dismiss
   palette:
     - scheme: default
       primary: indigo
@@ -44,16 +35,12 @@ theme:
     text: Inter
     code: JetBrains Mono
 
-# 插件配置
+# 插件配置（移除 git-revision-date-localized）
 plugins:
   - search:
       lang:
         - zh
         - en
-  - git-revision-date-localized:
-      type: date
-      format: yyyy-MM-dd
-      timezone: Asia/Shanghai
 
 # Markdown扩展
 markdown_extensions:
