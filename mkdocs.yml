@@ -78,49 +78,50 @@ extra_javascript:
 # 导航栏（保持你的原有结构不变）
 nav:
   - 首页: index.md
-  - 一、主流通用语言模型: models/general.md
-  - 二、AI提示词工具: models/prompt.md
-  - 三、AI数据处理与分析工具: models/data_analysis.md
-  - 四、AI绘图工具: models/drawing.md
-  - 五、AI综合视觉工具: models/vision.md
-  - 六、AI音频工具: models/audio.md
-  - 七、AI编程工具: models/coding.md
-  - 八、AI科研工具: models/research.md
-  - 九、AI会议辅助工具: models/meeting.md
-  - 十、AI医疗健康工具: models/health.md
-  - 十一、AI电商营销工具: models/ecommerce.md
-  - 十二、AI私域运营工具: models/private_operation.md
-  - 十三、AI思维导图工具: models/mindmap.md
-  - 十四、AI设计工具: models/design.md
-  - 十五、AI游戏工具: models/game.md
-  - 十六、AI情感陪伴工具: models/emotion.md
-  - 十七、AI求职招聘工具: models/job.md
-  - 十八、去AI味工具: models/remove_ai_style.md
-  - 十九、AI土木工程工具: models/civil_engineering.md
-  - 二十、AI语言翻译工具: models/translation.md
-  - 二十一、AI农业管理工具: models/agriculture.md
-  - 二十二、AI人力资源管理工具: models/hr.md
-  - 二十三、AI供应链管理工具: models/supply_chain.md
-  - 二十四、AI客户服务工具: models/customer_service.md
-  - 二十五、AI塑身运动工具: models/fitness.md
-  - 二十六、AI宠物生活工具: models/pet.md
-  - 二十七、AI金融工具: models/finance.md
-  - 二十八、AI智驾工具: models/auto_driving.md
-  - 二十九、AI法律助手工具: models/law.md
-  - 三十、AI语音克隆工具: models/voice_clone.md
-  - 三十一、AI剪辑工具: models/video_clip.md
-  - 三十二、AI虚拟人工具: models/virtual_human.md
-  - 三十三、AI3D模型工具: models/3d_model.md
-  - 三十四、AI搜索工具: models/search.md
-  - 三十五、AI PPT生成工具: models/ppt_generator.md
-  - 三十六、AI文本检测工具: models/text_detection.md
-  - 三十七、AI内容审核工具: models/content_review.md
-  - 三十八、AI网络防护工具: models/cyber_security.md
-  - 三十九、AI Agent工具: models/agent.md
-  - 四十、AI变美工具: models/beauty.md
-  - 四十一、AI教育工具: models/education.md
-  - 四十二、AI学习工具: models/learning.md
-  - 四十三、AI数据可视化工具: models/data_visualization.md
+  - 工具大全:
+      - 一、主流通用语言模型: models/general.md
+      - 二、AI提示词工具: models/prompt.md
+      - 三、AI数据处理与分析工具: models/data_analysis.md
+      - 四、AI绘图工具: models/drawing.md
+      - 五、AI综合视觉工具: models/vision.md
+      - 六、AI音频工具: models/audio.md
+      - 七、AI编程工具: models/coding.md
+      - 八、AI科研工具: models/research.md
+      - 九、AI会议辅助工具: models/meeting.md
+      - 十、AI医疗健康工具: models/health.md
+      - 十一、AI电商营销工具: models/ecommerce.md
+      - 十二、AI私域运营工具: models/private_operation.md
+      - 十三、AI思维导图工具: models/mindmap.md
+      - 十四、AI设计工具: models/design.md
+      - 十五、AI游戏工具: models/game.md
+      - 十六、AI情感陪伴工具: models/emotion.md
+      - 十七、AI求职招聘工具: models/job.md
+      - 十八、去AI味工具: models/remove_ai_style.md
+      - 十九、AI土木工程工具: models/civil_engineering.md
+      - 二十、AI语言翻译工具: models/translation.md
+      - 二十一、AI农业管理工具: models/agriculture.md
+      - 二十二、AI人力资源管理工具: models/hr.md
+      - 二十三、AI供应链管理工具: models/supply_chain.md
+      - 二十四、AI客户服务工具: models/customer_service.md
+      - 二十五、AI塑身运动工具: models/fitness.md
+      - 二十六、AI宠物生活工具: models/pet.md
+      - 二十七、AI金融工具: models/finance.md
+      - 二十八、AI智驾工具: models/auto_driving.md
+      - 二十九、AI法律助手工具: models/law.md
+      - 三十、AI语音克隆工具: models/voice_clone.md
+      - 三十一、AI剪辑工具: models/video_clip.md
+      - 三十二、AI虚拟人工具: models/virtual_human.md
+      - 三十三、AI3D模型工具: models/3d_model.md
+      - 三十四、AI搜索工具: models/search.md
+      - 三十五、AI PPT生成工具: models/ppt_generator.md
+      - 三十六、AI文本检测工具: models/text_detection.md
+      - 三十七、AI内容审核工具: models/content_review.md
+      - 三十八、AI网络防护工具: models/cyber_security.md
+      - 三十九、AI Agent工具: models/agent.md
+      - 四十、AI变美工具: models/beauty.md
+      - 四十一、AI教育工具: models/education.md
+      - 四十二、AI学习工具: models/learning.md
+      - 四十三、AI数据可视化工具: models/data_visualization.md
   - 工具对比专区:
       - 通用大模型对比: compare/general.md
   - 贡献与反馈:
