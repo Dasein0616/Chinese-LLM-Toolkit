@@ -3,38 +3,93 @@ site_name: LLM-Toolkit 大模型工具大全
 site_description: 700+ AI工具分类导航与对比，覆盖43个细分场景
 site_url: https://Dasein0616.github.io/LLM-Toolkit/
 site_author: Dasein0616
+# 网站图标（后续准备文件）
+site_favicon: assets/ico/favicon.ico
 
-# 关键配置：指定文档在根目录
+# 文档目录（已配置正确）
 docs_dir: docs
 
-# 主题配置
+# 主题高级配置
 theme:
   name: material
   language: zh
+  version: latest
+  logo: assets/img/logo.png
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - navigation.sections
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - announce.dismiss
   palette:
     - scheme: default
       primary: indigo
-      accent: indigo
+      accent: teal
       toggle:
         icon: material/weather-sunny
         name: 切换到暗色模式
     - scheme: slate
-      primary: blue
-      accent: blue
+      primary: blue-grey
+      accent: cyan
       toggle:
         icon: material/weather-night
         name: 切换到亮色模式
-  features:
-    - search.suggest
-    - search.highlight
-    - navigation.expand
-    - navigation.top
-    - content.code.copy
+  font:
+    text: Inter
+    code: JetBrains Mono
 
-# 完整导航栏（匹配所有文件）
+# 插件配置
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - git-revision-date-localized:
+      type: date
+      format: yyyy-MM-dd
+      timezone: Asia/Shanghai
+
+# Markdown扩展
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# 自定义静态资源
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Dasein0616/LLM-Toolkit
+      name: GitHub 仓库
+    - icon: fontawesome/solid/globe
+      link: https://dasein0616.github.io/LLM-Toolkit/
+      name: 官网
+  variables:
+    primary_color: "#6366f1"
+    accent_color: "#14b8a6"
+
+extra_css:
+  - assets/css/extra.css
+extra_javascript:
+  - assets/js/extra.js
+
+# 导航栏（保持你的原有结构不变）
 nav:
   - 首页: index.md
-  # 43个核心分类
   - 一、主流通用语言模型: models/general.md
   - 二、AI提示词工具: models/prompt.md
   - 三、AI数据处理与分析工具: models/data_analysis.md
@@ -78,25 +133,8 @@ nav:
   - 四十一、AI教育工具: models/education.md
   - 四十二、AI学习工具: models/learning.md
   - 四十三、AI数据可视化工具: models/data_visualization.md
-  # 工具对比专区
-
-  # 贡献与反馈
+  
   - 贡献与反馈:
       - 新增工具指南: contribute/add_tool.md
       - 问题反馈: contribute/feedback.md
-  # 审核日志
   - 审核日志: logs/audit_log.md
-
-# 插件配置
-plugins:
-  - search:
-      lang:
-        - zh
-        - en
-      min_search_length: 1
-
-# Markdown扩展
-markdown_extensions:
-  - tables
-  - toc:
-      permalink: true
